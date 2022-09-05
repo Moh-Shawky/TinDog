@@ -1,0 +1,142 @@
+
+/* nav bar */
+    
+.containar-fluid{
+    padding: 3% 15% 7%;
+}
+.Nav{
+    margin-left: 50%;
+}
+.navbar-brand{
+     font-family: "Ubuntu";
+     line-height: 1.5;
+     font-size: 2.5rem;
+}
+.navbar{
+    margin-bottom: 50px;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+
+/* title */
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.FONT{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 1.2rem;
+    color:#fff;
+
+}
+.btn-dark{
+   margin-right: 5%;
+}
+
+.image{
+    width: 320px;
+    transform: rotate(20deg); 
+    position: absolute;
+}
+
+/* Features */
+
+.font-h3{
+    font-size: 1.5rem;
+   padding-top: 20px;
+    
+    font-weight: bold;
+}
+.font-p{
+    color: #8f8f8f;
+    width: 330px;
+  word-break: break-all;
+}
+.fas{
+    color: #ef8172;
+}
+
+.fas:hover{
+    color: #ff4c68;
+}
+.col-lg-4{
+   text-align: center;
+   padding: 5%;
+}
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    
+}
+
+/* testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 8% 16%;
+}
+h2{
+     color: #fff; 
+    font-family: "Montserrat-Bold";
+    font-size: 1rem;
+}
+.dog-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 90px;
+}
+.press{
+    width: 16%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10% 0%;
+    text-align: center;
+}
+
+#footer{
+    font-size: large;
+    text-align: center;
+    padding: 20px 0%;
+
+}
+
+
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .image{
+        width: 250px;
+        transform: rotate(0deg); 
+        position: static;
+        padding-top: 20px;
+    }    
+    
+}
